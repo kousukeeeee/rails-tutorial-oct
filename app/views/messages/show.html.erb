@@ -1,5 +1,7 @@
 <h1>id = <%= @message.id %>のメッセージ</h1>
 
+<h2><%= @message.title %></h2>
+
 <p><%= @message.content %></p>
 
 <%= link_to 'メッセージ一覧に戻る', messages_path %>

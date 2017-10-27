@@ -11,6 +11,10 @@
 <% end %>
 
 <%= form_for(message) do |f| %>
+
+  <%= f.label :title, 'タイトル' %>
+  <%= f.text_field :title %>
+
   <%= f.label :content, 'メッセージ' %>
   <%= f.text_field :content %>
 
